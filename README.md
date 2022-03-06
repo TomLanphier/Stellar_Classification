@@ -9,7 +9,6 @@ We chose to select a stellar classification dataset that was compiled from the S
 
 Figure 1. Dataset column identifiers and meanings.
 
-
 ## Why this Topic
 The group was highly interested in the topic of astronomy, and learning which features of an astronomical object were most important in classifying it as a star, galaxy, or quasar was highly interesting to all group members which is why we picked this comprehensive and detailed dataset. 
 
