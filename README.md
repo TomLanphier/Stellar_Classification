@@ -16,4 +16,4 @@ In this project we hope to learn how accurate our models are at predicting futur
 ## Communication Protocols
 The group communicated through our slack channel and met over Zoom to discuss the project. 
 
-:)
+
