@@ -3,7 +3,7 @@ Dataset Source: https://www.kaggle.com/fedesoriano/stellar-classification-datase
 
 ## Final Project Overview
 
-We chose to select a stellar classification dataset that was compiled from the Sloan Digital Sky Survey which analyzed over 100,000 interstellar phenomena as either a star, galaxy, or quasar. The survey provided us with a wide array of observation data that included the object's alpha (right ascension angle), delta (declination angle), ultraviolet filter, green filter, red filter, infared filter, near infared filter, redshift, plate, the date the object was identified, and a variety of identification numbers relating to how the data was collected. 
+We chose to select a stellar classification dataset that was compiled from the Sloan Digital Sky Survey which analyzed over 100,000 interstellar phenomena as either a star, galaxy, or quasar. The survey provided us with a wide array of observation data that included the object's alpha (right ascension angle), delta (declination angle), ultraviolet filter, green filter, red filter, infared filter, near infared filter, redshift, plate, the date the object was identified, and a variety of identification numbers relating to how the data was collected. In our analysis, we removed the object's identifiers (i.e. Object ID, Run ID, etc.) from the machine learning model because they had no impact on classifying what would the object would be.
 
 ### Column identifiers and meanings
 ![image](https://user-images.githubusercontent.com/92773195/156466962-665f5b20-747f-4f2d-9bc1-bc2f01782e4f.png)
