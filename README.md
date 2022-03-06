@@ -5,6 +5,9 @@ Dataset Source: https://www.kaggle.com/fedesoriano/stellar-classification-datase
 
 We chose to select a stellar classification dataset that was compiled from the Sloan Digital Sky Survey which identified over 100,000 interstellar phenomena as either a star, galaxy, or quasar. The survey provided us with a wide array of observation data that included the object's alpha (right ascension angle), delta (declination angle), ultraviolet filter, green filter, red filter, infared filter, near infared filter, redshift, plate, the date the object was identified, and a variety of identification numbers relating to how the data was collected. 
 
+### Hypothesis
+Our hypothesis is that there will always be more galaxies then quasar's and there will be more stars then both. This is a due to the fact that all galaxies are made up of stars, and quasars only exsist in the center of large galaxies. While the data is specifically looking for quasars it is still interesting that
+
 ### Column Identifiers and Meanings
 ![image](https://user-images.githubusercontent.com/92773195/156466962-665f5b20-747f-4f2d-9bc1-bc2f01782e4f.png)
 
