@@ -15,4 +15,4 @@ The group was highly interested in the topic of astronomy, and learning which fe
 In this project we hope to learn how accurate our models are at predicting future objects with the same kind of data provided as stars, galaxies, or quasars. Additionally, our goal is to understand which variables are most important in determining/classifying objects in those three groups. 
 
 ## Communication Protocols
-The group communicated through our slack channel and met over Zoom to discuss the project. 
+The group communicated through our slack channel and met over Zoom to discuss the project. We have agreed to continue using these platforms for group communications moving forward.
