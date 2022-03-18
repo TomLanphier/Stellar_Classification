@@ -30,4 +30,4 @@ A SQL database was also created with multiple tables to store our stellar classi
 The group communicated through our slack channel and met over Zoom multiple times to discuss the project. 
 
 
-
+commitment
