@@ -14,7 +14,7 @@ The group was highly interested in the topic of astronomy, and learning which fe
 In this project we hope to learn how accurate our models are at predicting future objects with the same kind of data provided as stars, galaxies, or quasars. Additionally, our goal is to understand which variables are most important in determining/classifying objects in those three groups. 
 
 ## Analysis
-We attempted multiple machine learning models that included random forest classification, neural networks, undersampling, K-means clustering to determine the most accurate model at classifying which stellar objects were stars, quasars, or galaxies. We also wanted to determine which features were the most important in determining the object's classifcation. 
+We attempted multiple machine learning models that included random forest classification, neural networks, undersampling, and K-means clustering to determine the most accurate model at classifying which stellar objects were stars, quasars, or galaxies. We also wanted to determine which features were the most important in determining the object's classifcation. 
 
 Ultimately, we determined that random forest classification was the most accurate model at predicting a stellar object's classification as it had an accuracy of roughly 98%
 ![image](https://user-images.githubusercontent.com/92773195/158912311-19d76f82-7561-4659-87df-ddc4a39b7ae6.png)
