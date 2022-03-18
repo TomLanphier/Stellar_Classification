@@ -23,6 +23,8 @@ Redshift was the most important feature in determining whether the object would 
 
 ![image](https://user-images.githubusercontent.com/92773195/158912382-b45f74b1-a3eb-4b85-963b-58948692bd66.png)
 
+A SQL database was also created with multiple tables to store our stellar classification data and linked to our Jupyter Notebook file.
+
 
 ## Communication Protocols
 The group communicated through our slack channel and met over Zoom multiple times to discuss the project. 
