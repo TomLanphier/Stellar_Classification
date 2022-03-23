@@ -14,7 +14,7 @@ The group was highly interested in the topic of astronomy, and learning which fe
 In this project we hope to learn how accurate our models are at predicting future objects with the same kind of data provided as stars, galaxies, or quasars. Additionally, our goal is to understand which variables are most important in determining/classifying objects in those three groups. 
 
 ## Analysis
-We attempted multiple machine learning models that included random forest classification, neural networks, undersampling, K-means clustering to determine the most accurate model at classifying which stellar objects were stars, quasars, or galaxies. We also wanted to determine which features were the most important in determining the object's classifcation. 
+We attempted multiple machine learning models in pandas that included random forest classification, neural networks, undersampling, K-means clustering to determine the most accurate model at classifying which stellar objects were stars, quasars, or galaxies. We also wanted to determine which features were the most important in determining the object's classifcation. 
 
 Ultimately, we determined that random forest classification was the most accurate model at predicting a stellar object's classification as it had an accuracy of roughly 98%
 ![image](https://user-images.githubusercontent.com/92773195/158912311-19d76f82-7561-4659-87df-ddc4a39b7ae6.png)
@@ -26,6 +26,12 @@ Redshift was the most important feature in determining whether the object would 
 A SQL database was also created with multiple tables to store our stellar classification data and linked to our Jupyter Notebook file.
 
 ## Dashboard
+For our final dashboard, we used Tableau to create our visualizations. To start, we wanted to display the counts of galaxies, stars, and quasars contained in the dataset using a barchart. There are roughly 60k galaxies, 20k stars, and 20k quasars in the Sloan Digital Sky Survey dataset. 
+
+Following that, and due to the nature of redshift being the most important feature in stellar classifcation, we decided to visualize the average redshift by stars, quasars, and galaxies. Quasars produced by the far the highest amount of redshift (approx. 1.7), galaxies (approx. 0.42), and stars had essentially 0 redshift. 
+
+Finally, we wanted to visualize the filters used to observe the objects based on the type of light they emit and if we could spot any tendencies from there.
+
 https://public.tableau.com/app/profile/edward.goldhill/viz/RedshiftvsAlpha/Dashboard1?publish=yes
 
 ## Communication Protocols
