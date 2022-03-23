@@ -26,11 +26,11 @@ Redshift was the most important feature in determining whether the object would 
 A SQL database was also created with multiple tables to store our stellar classification data and linked to our Jupyter Notebook file.
 
 ## Dashboard
-For our final dashboard, we used Tableau to create our visualizations. To start, we wanted to display the counts of galaxies, stars, and quasars contained in the dataset using a barchart. There are roughly 60k galaxies, 20k stars, and 20k quasars in the Sloan Digital Sky Survey dataset. 
+For our dashboard, we used Tableau to create our visualizations. To start, we wanted to display the counts of galaxies, stars, and quasars contained in the dataset using a barchart. There are roughly 60k galaxies, 20k stars, and 20k quasars in the Sloan Digital Sky Survey dataset. 
 
 Following that, and due to the nature of redshift being the most important feature in stellar classifcation, we decided to visualize the average redshift by stars, quasars, and galaxies. Quasars produced by the far the highest amount of redshift (approx. 1.7), galaxies (approx. 0.42), and stars had essentially 0 redshift. 
 
-Finally, we wanted to visualize the filters used to observe the objects based on the type of light they emit and if we could spot any tendencies from there.
+Finally, we wanted to visualize the filters used to observe the objects based on the type of light they emit and if we could spot any tendencies from there. We also used a floating filter that created an interactive element of the visualization for users to toggle between the galaxies, stars, and quasars. 
 
 https://public.tableau.com/app/profile/john.molenda/viz/StellarClassification/StellarDashboard
 
