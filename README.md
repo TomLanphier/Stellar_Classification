@@ -31,8 +31,11 @@ For our final dashboard, we used Tableau to create our visualizations. To start,
 Following that, and due to the nature of redshift being the most important feature in stellar classifcation, we decided to visualize the average redshift by stars, quasars, and galaxies. Quasars produced by the far the highest amount of redshift (approx. 1.7), galaxies (approx. 0.42), and stars had essentially 0 redshift. 
 
 Finally, we wanted to visualize the filters used to observe the objects based on the type of light they emit and if we could spot any tendencies from there.
+https://public.tableau.com/app/profile/john.molenda/viz/StellarClassification/StellarDashboard
 
 https://public.tableau.com/app/profile/edward.goldhill/viz/RedshiftvsAlpha/Dashboard1?publish=yes
+
+
 
 ## Communication Protocols
 The group communicated through our Slack channel and met over Zoom to discuss the project. We have agreed to continue using these platforms for group communications moving forward.
