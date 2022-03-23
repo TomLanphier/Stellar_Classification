@@ -34,6 +34,9 @@ Finally, we wanted to visualize the filters used to observe the objects based on
 
 https://public.tableau.com/app/profile/john.molenda/viz/StellarClassification/StellarDashboard
 
+
+In the second dashboard, we again used Tableau to graph the redshift (Y-axis) and alpha angles (x-axis) of the stellar bodies. The following visual is displayed in a scatter plot with the points being color coded based on the absolute magnatude in the infrared wavelength spectrum.
+
 https://public.tableau.com/app/profile/edward.goldhill/viz/RedshiftvsAlpha/Dashboard1?publish=yes
 
 
