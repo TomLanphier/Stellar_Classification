@@ -25,5 +25,8 @@ Redshift was the most important feature in determining whether the object would 
 
 A SQL database was also created with multiple tables to store our stellar classification data and linked to our Jupyter Notebook file.
 
+## Dashboard
+https://public.tableau.com/app/profile/edward.goldhill/viz/RedshiftvsAlpha/Dashboard1?publish=yes
+
 ## Communication Protocols
 The group communicated through our Slack channel and met over Zoom to discuss the project. We have agreed to continue using these platforms for group communications moving forward.
