@@ -23,7 +23,7 @@ Redshift was the most important feature in determining whether the object would 
 
 ![image](https://user-images.githubusercontent.com/92773195/158912382-b45f74b1-a3eb-4b85-963b-58948692bd66.png)
 
-A SQL database was also created with multiple tables to store our stellar classification data and linked to our Jupyter Notebook file.
+A SQL database was also created with multiple tables to store our stellar classification data and linked to our Jupyter Notebook file. Jupyter Notebook was also used to show the locations the stellar objects in a 3D plot.
 
 ## Dashboard
 For our dashboard, we used Tableau to create our visualizations. To start, we wanted to display the counts of galaxies, stars, and quasars contained in the dataset using a barchart. There are roughly 60k galaxies, 20k stars, and 20k quasars in the Sloan Digital Sky Survey dataset. 
