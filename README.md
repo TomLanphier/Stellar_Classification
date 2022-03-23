@@ -37,7 +37,7 @@ https://public.tableau.com/app/profile/john.molenda/viz/StellarClassification/St
 
 In the second dashboard, we again used Tableau to graph the redshift (Y-axis) and alpha angles (x-axis) of the stellar bodies. The following visual is displayed in a scatter plot with the points being color coded based on the absolute magnatude in the infrared (z) wavelength spectrum.
 
-This analysis shows the distribution of the redshift amoung stellar bodies in relation to earths location and showed unusual gaps in space. Furthermore the absolute magnitude in the infrared (z) spectrum showed an interesting positive correlation between the redshift and absolute magitude.
+This analysis shows the distribution of the redshift amoung stellar bodies in relation to earths location and showed unusual gaps in space. Furthermore the absolute magnitude in the infrared (z) spectrum showed an interesting correlation between the redshift and absolute magitude.
 
 https://public.tableau.com/app/profile/edward.goldhill/viz/RedshiftvsAlpha/Dashboard1?publish=yes
 
