@@ -7,6 +7,7 @@ We chose to select a stellar classification dataset that was compiled from the S
 
 ### Column identifiers and meanings
 ![image](https://user-images.githubusercontent.com/92773195/156466962-665f5b20-747f-4f2d-9bc1-bc2f01782e4f.png)
+
 Figure 1. Column identifications and their definitions.
 
 The group was highly interested in the topic of astronomy, and learning which features of an astronomical object were most important in classifying it as a star, galaxy, or quasar was highly interesting to all group members which is why we picked this comprehensive and detailed dataset. 
@@ -19,21 +20,25 @@ We created multiple types of machine learning models in pandas that included ran
 Random forest classification proved to be the most accurate modeling type with an average accuracy of 97.7% and a standard deviation of 0.03%. 
 
 ![Random Forest Accuracy Values](https://user-images.githubusercontent.com/91921522/160036675-61aa4ad1-fdbb-4144-950e-441b7e378211.png)
+
 Figure 2. Accuracy values for 10 random forest models.
 
 K-Means was found to be a less accurate machine learning model type for this classification with an average accuracy of 70.4% and a standard deviation of 17.45%.
 
 ![K-Means Accuracy Values](https://user-images.githubusercontent.com/91921522/160036772-d9bf58dd-e9e6-496b-8e1d-544833b4ff8d.png)
+
 Figure 3. Accuracy values for 10 K-means models.
 
 Neural Networks were found to be more accurate than the K-Means, but less accurate than the random forest models. 8 input features were used for all cases, the first layer had 25 nodes for the first two models, 50 for the following two, then 75 for the following two, 100 for the following two, and 150 for the last two. The second layer used 5 nodes and 9 nodes alternating.
 
 ![Neural Network Accuracy Values](https://user-images.githubusercontent.com/91921522/160048151-c807e483-2b85-4e92-9751-5e5af65a3fc4.png)
+
 Figure 4. Accuracy values for 10 neural network models.
 
 We also wanted to determine which features were the most important in determining the object's classification. Redshift was the most important feature in determining whether the object would be a star, quasar, or galaxy with a weight of 0.61. Since redshift was so heavily weighted in determining the object's classification, we also attempted an additional random forest models with the redshift removed to better determine the impact of the redshift on the average model accuracy. The random forest models had an average accuracy of 87.6% and a standard deviation of 0.04%.
 
 ![Random Forest without Redshift Accuracy Values](https://user-images.githubusercontent.com/91921522/160040222-bfbfd04c-7676-43d0-8b22-0ce04c91f719.png)
+
 Figure 5. Accuracy values for 10 random forest models with redshift data omitted.
 
 A SQL database was also created with multiple tables to store our stellar classification data and linked to our Jupyter Notebook file. Jupyter Notebook was also used to show the locations the stellar objects in a 3D plot.
