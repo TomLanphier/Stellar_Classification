@@ -45,3 +45,7 @@ https://public.tableau.com/app/profile/edward.goldhill/viz/RedshiftvsAlpha/Dashb
 
 ## Communication Protocols
 The group communicated through our Slack channel and met over Zoom to discuss the project. We have agreed to continue using these platforms for group communications moving forward.
+
+
+
+:)
