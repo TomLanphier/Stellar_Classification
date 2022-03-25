@@ -60,4 +60,3 @@ This analysis shows the distribution of the redshift amoung stellar bodies in re
 https://public.tableau.com/app/profile/edward.goldhill/viz/RedshiftvsAlpha/Dashboard1?publish=yes
 
 Google Slides: https://docs.google.com/presentation/d/1oDV5cDXPCrpJuMypeMD07zXWSuc-ywPKzj5fVKoqTpM/edit?usp=sharing
-
