@@ -19,13 +19,11 @@ We created multiple types of machine learning models in pandas that included ran
 Random forest classification proved to be the most accurate modeling type with an average accuracy of 97.7% and a standard deviation of 0.03%. 
 
 ![Random Forest Accuracy Values](https://user-images.githubusercontent.com/91921522/160036675-61aa4ad1-fdbb-4144-950e-441b7e378211.png)
-
 Figure 2. Accuracy values for 10 random forest models.
 
 K-Means was found to be a less accurate machine learning model type for this classification with an average accuracy of 70.4% and a standard deviation of 17.45%.
 
 ![K-Means Accuracy Values](https://user-images.githubusercontent.com/91921522/160036772-d9bf58dd-e9e6-496b-8e1d-544833b4ff8d.png)
-
 Figure 3. Accuracy values for 10 K-means models.
 
 We also wanted to determine which features were the most important in determining the object's classification. Redshift was the most important feature in determining whether the object would be a star, quasar, or galaxy with a weight of 0.61. Since redshift was so heavily weighted in determining the object's classification, we also attempted an additional model that removed redshift from the dataset to see how accurate our models would be using all other features excluding redshift.
