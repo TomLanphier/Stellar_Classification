@@ -7,7 +7,6 @@ We chose to select a stellar classification dataset that was compiled from the S
 
 ### Column identifiers and meanings
 ![image](https://user-images.githubusercontent.com/92773195/156466962-665f5b20-747f-4f2d-9bc1-bc2f01782e4f.png)
-
 Figure 1. Column identifications and their definitions.
 
 The group was highly interested in the topic of astronomy, and learning which features of an astronomical object were most important in classifying it as a star, galaxy, or quasar was highly interesting to all group members which is why we picked this comprehensive and detailed dataset. 
