@@ -26,9 +26,15 @@ K-Means was found to be a less accurate machine learning model type for this cla
 ![K-Means Accuracy Values](https://user-images.githubusercontent.com/91921522/160036772-d9bf58dd-e9e6-496b-8e1d-544833b4ff8d.png)
 Figure 3. Accuracy values for 10 K-means models.
 
-We also wanted to determine which features were the most important in determining the object's classification. Redshift was the most important feature in determining whether the object would be a star, quasar, or galaxy with a weight of 0.61. Since redshift was so heavily weighted in determining the object's classification, we also attempted an additional model that removed redshift from the dataset to see how accurate our models would be using all other features excluding redshift.
+Neural Networks were found to be 
 
-![image](https://user-images.githubusercontent.com/92773195/158912382-b45f74b1-a3eb-4b85-963b-58948692bd66.png)
+
+Figure 4. Accuracy values for 10 neural network models.
+
+We also wanted to determine which features were the most important in determining the object's classification. Redshift was the most important feature in determining whether the object would be a star, quasar, or galaxy with a weight of 0.61. Since redshift was so heavily weighted in determining the object's classification, we also attempted an additional random forest models with the redshift removed to better determine the impact of the redshift on the average model accuracy. The random forest models had an average accuracy of 87.6% and a standard deviation of 0.04%.
+
+![Random Forest without Redshift Accuracy Values](https://user-images.githubusercontent.com/91921522/160040222-bfbfd04c-7676-43d0-8b22-0ce04c91f719.png)
+Figure 5. Accuracy values for 10 random forest models with redshift data omitted.
 
 A SQL database was also created with multiple tables to store our stellar classification data and linked to our Jupyter Notebook file. Jupyter Notebook was also used to show the locations the stellar objects in a 3D plot.
 
