@@ -26,9 +26,9 @@ K-Means was found to be a less accurate machine learning model type for this cla
 ![K-Means Accuracy Values](https://user-images.githubusercontent.com/91921522/160036772-d9bf58dd-e9e6-496b-8e1d-544833b4ff8d.png)
 Figure 3. Accuracy values for 10 K-means models.
 
-Neural Networks were found to be 
+Neural Networks were found to be more accurate than the K-Means, but less accurate than the random forest models. 8 input features were used for all cases, the first layer had 25 nodes for the first two models, 50 for the following two, then 75 for the following two, 100 for the following two, and 150 for the last two. The second layer used 5 nodes and 9 nodes alternating.
 
-
+![Neural Network Accuracy Values](https://user-images.githubusercontent.com/91921522/160048151-c807e483-2b85-4e92-9751-5e5af65a3fc4.png)
 Figure 4. Accuracy values for 10 neural network models.
 
 We also wanted to determine which features were the most important in determining the object's classification. Redshift was the most important feature in determining whether the object would be a star, quasar, or galaxy with a weight of 0.61. Since redshift was so heavily weighted in determining the object's classification, we also attempted an additional random forest models with the redshift removed to better determine the impact of the redshift on the average model accuracy. The random forest models had an average accuracy of 87.6% and a standard deviation of 0.04%.
