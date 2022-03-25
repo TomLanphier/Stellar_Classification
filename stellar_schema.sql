@@ -1,3 +1,5 @@
+/* SCHEMA */
+
 drop table if exists stellar_class;
 create table stellar_class
 (
