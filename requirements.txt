@@ -1,2 +1,12 @@
 Required Installations Prior to Starting:
 
+Libraries necessary to install:
+1) pandas 
+2) numpy
+3) matplotlib 
+4) path
+5) sklearn
+6) collections
+7) tensorflow
+8) plotly
+9) hvplot
