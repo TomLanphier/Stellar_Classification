@@ -41,6 +41,11 @@ We also wanted to determine which features were the most important in determinin
 
 Figure 5. Accuracy values for 10 random forest models with redshift data omitted.
 
+
+DECISION: Based on all the models, we felt the random forest classification model was the best option for us to use in our dataset due to its highly accurate nature of 98.0%. This is a great model for datasets using numerical and categorical data (like our own), and although random forests can be a little hard to interpret, we felt that we could not ignore such a highly accurate model for future use. 
+
+TRAINING: We split the data in our machine learning models using the train_test_split method in the sklearn library in Jupyter Notebooks. The data was taken from the aforementioned Sloan Digital Sky Survey data and additional training of the data could be used from other stellar cartography datasets containing the same or similar information, only from different stellar objects in our universe. 
+
 A SQL database was also created with multiple tables to store our stellar classification data and linked to our Jupyter Notebook file. Jupyter Notebook was also used to show the locations the stellar objects in a 3D plot.
 
 ## Dashboard
@@ -60,3 +65,4 @@ This analysis shows the distribution of the redshift amoung stellar bodies in re
 https://public.tableau.com/app/profile/edward.goldhill/viz/RedshiftvsAlpha/Dashboard1?publish=yes
 
 Google Slides: https://docs.google.com/presentation/d/1oDV5cDXPCrpJuMypeMD07zXWSuc-ywPKzj5fVKoqTpM/edit?usp=sharing
+
