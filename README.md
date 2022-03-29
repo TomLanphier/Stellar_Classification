@@ -29,9 +29,9 @@ K-Means was found to be a less accurate machine learning model type for this cla
 
 Figure 3. Accuracy values for 10 K-means models.
 
-Neural Networks were found to be more accurate than the K-Means, but less accurate than the random forest models. 8 input features were used for all cases, the first layer had 25 nodes for the first two models, 50 for the following two, then 75 for the following two, 100 for the following two, and 150 for the last two. The second layer used 5 nodes and 9 nodes alternating.
+Neural Networks were found to be more accurate than the K-Means, but less accurate than the random forest models, with an average accuracy of 80.0% and a standard deviation of 1.3%. 8 input features were used for all cases, the first layer had 25 nodes for the first two models, 50 for the following two, then 75 for the following two, 100 for the following two, and 150 for the last two. The second layer used 5 nodes and 9 nodes alternating.
 
-![Neural Network Accuracy Values](https://user-images.githubusercontent.com/91921522/160048151-c807e483-2b85-4e92-9751-5e5af65a3fc4.png)
+![Neural Network Accuracy Values](https://user-images.githubusercontent.com/91921522/160721547-4e802c37-3835-4ad1-bb61-33681e80e50d.png)
 
 Figure 4. Accuracy values for 10 neural network models.
 
@@ -40,7 +40,6 @@ We also wanted to determine which features were the most important in determinin
 ![Random Forest without Redshift Accuracy Values](https://user-images.githubusercontent.com/91921522/160040222-bfbfd04c-7676-43d0-8b22-0ce04c91f719.png)
 
 Figure 5. Accuracy values for 10 random forest models with redshift data omitted.
-
 
 DECISION: Based on all the models, we felt the random forest classification model was the best option for us to use in our dataset due to its highly accurate nature of 98.0%. This is a great model for datasets using numerical and categorical data (like our own), and although random forests can be a little hard to interpret, we felt that we could not ignore such a highly accurate model for future use. 
 
